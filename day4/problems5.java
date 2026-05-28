@@ -1,3 +1,4 @@
+// Sum of two arrays
 import java.util.Scanner;
 
 public class Main {
