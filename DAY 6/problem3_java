@@ -1,0 +1,33 @@
+// sorted array
+o/p
+Enter the size of the array:
+4
+5
+10
+6
+6
+sorted Array:
+5 
+6 
+6 
+10 
+import java.util.Scanner;
+import java.util.Arrays;  
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the array:");
+        int n = sc.nextInt();
+        int[]arr= new int[n];
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        Arrays.sort(arr);
+        System.out.println("sorted Array:");
+        for(int i=0;i<n;i++){
+            System.out.println(arr[i]+" ");
+            
+        }
+            }
+        }
+            
