@@ -1,5 +1,5 @@
 // sorted array
-o/p
+//o/p
 Enter the size of the array:
 4
 5
@@ -30,4 +30,5 @@ class Main {
         }
             }
         }
+}
             
